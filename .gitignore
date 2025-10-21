@@ -1,0 +1,22 @@
+# deps
+node_modules
+home-town/node_modules
+homeTown-backend/node_modules
+
+# env
+.env
+home-town/.env
+homeTown-backend/.env
+
+# builds / misc
+dist
+build
+.vercel
+.vscode
+.DS_Store
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
