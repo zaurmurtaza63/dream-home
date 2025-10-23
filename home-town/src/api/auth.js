@@ -27,4 +27,3 @@ export async function loginUser(email, password) {
 
   return await res.json();
 }
-
