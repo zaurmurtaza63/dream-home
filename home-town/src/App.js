@@ -21,9 +21,7 @@ function Layout() {
       howItWorksRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
-
   const isHomePage = location.pathname === "/";
-
   return (
     <div className="App">
       {/* ✅ Show Header only when NOT on home page */}
